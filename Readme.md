@@ -16,11 +16,6 @@ A lightweight Python script and workflow for uploading local audio files to the 
 
 ---
 
-## 📋 Prerequisites
-
-- **Python 3.7+**  
-- **[requests](https://pypi.org/project/requests/)** library  
-  ```bash
 
 ## 🎬 Usage
 
