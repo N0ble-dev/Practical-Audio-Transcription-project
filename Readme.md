@@ -1,12 +1,12 @@
 # Audio Transcription with AssemblyAI
 
-![AssemblyAI Logo](https://avatars.githubusercontent.com/u/55889729?s=200&v=4)
+
 
 A lightweight Python script and workflow for uploading local audio files to the [AssemblyAI](https://www.assemblyai.com/) REST API, requesting an asynchronous transcription job, polling until completion, and saving the transcript to a text file.
 
 ---
 
-## 🚀 Features
+##  Features
 
 - **Chunked Upload**: Streams audio in 5 MB chunks to avoid timeouts and large memory spikes.  
 - **Asynchronous Transcription**: Submits your file and immediately returns a job ID—no need to block your script.  
@@ -21,4 +21,10 @@ A lightweight Python script and workflow for uploading local audio files to the 
 - **Python 3.7+**  
 - **[requests](https://pypi.org/project/requests/)** library  
   ```bash
-  pip install requests
+
+## 🎬 Usage
+
+1. **Prepare your audio files**  
+   Make sure your audio files are ready for transcription.
+
+2. **Place them in the same level
